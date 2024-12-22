@@ -1,0 +1,10 @@
+[package]
+name = "token_claim_contract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+multiversx-sc = "0.1" # Use the latest version compatible with MultiversX
+
+[lib]
+crate-type = ["cdylib"]
